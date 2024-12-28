@@ -3,7 +3,6 @@ const crypto = std.crypto;
 const testing = std.testing;
 
 pub const V4 = struct {
-    const uuidFmt = "{x}{x}{x}{x}-{x}{x}-{x}{x}-{x}{x}-{x}{x}{x}{x}{x}{x}";
     // Bit Layout
     //  0                   1                   2                   3
     //  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
